@@ -31,27 +31,27 @@ import java.util.logging.Logger;
  *
  */
 public class swing_mysql{
-		private Connection con;
-		private Statement st;
-		private ResultSet rs;
-		private String url;
-		private String user;
-		private String password;
-		private String[] departments;
-		private String[] pay_type;
-		private String[] education_level;
-		private JComboBox departmentCombo;
-		private JComboBox payCombo;
-		private JComboBox educationCombo;
-		private JButton query;
-		private JTable data_table;
-		private DefaultTableModel model;
-		
-		private JFrame mainFrame;
-		private JPanel dataPanel;
-		private JPanel controlPanel;
-		private JScrollPane scrollPane;
-		
+	private Connection con;
+	private Statement st;
+	private ResultSet rs;
+	private String url;
+	private String user;
+	private String password;
+	private String[] departments;
+	private String[] pay_type;
+	private String[] education_level;
+	private JComboBox departmentCombo;
+	private JComboBox payCombo;
+	private JComboBox educationCombo;
+	private JButton query;
+	private JTable data_table;
+	private DefaultTableModel model;
+
+	private JFrame mainFrame;
+	private JPanel dataPanel;
+	private JPanel controlPanel;
+	private JScrollPane scrollPane;
+
 	public swing_mysql() throws SQLException{
 		con = null;
 	    st = null;
